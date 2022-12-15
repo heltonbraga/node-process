@@ -11,6 +11,7 @@ Abordagem cluster: Seja N o número de cores da máquina executando, segmenta o 
 
 # Resultados
 Os testes foram realizados em uma máquina quad-core com 8gb de ram.
+
 Para um arquivo de entrada de ~15k linhas, a abordagem padrão é ~20% mais rápida que a abordagem cluster, acredito que devido ao overhead de inicialização e sincronia dos workers.
 
 Para um arquivo de entrada de ~60k linhas, temos um empate.
